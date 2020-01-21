@@ -3,20 +3,26 @@
     height: 375px;
     background: #F7F1E7;
     position: relative;
-}
+    display: inline-flexbox;
+}  
 
-.top-header {
+.top-header{
     width: 100%;
     height: 70px;
     text-align: center;
     background: #D8D8D8;
+    
 }
+
+    
+
 
 /*  Step-1 You need to get all of these elements to line up side by side. What display property would do this for you? */
 
 .menu {
     width: 100px;
     height: 40px;
+   
     background: #536A63;
     float: left;
 }
@@ -33,6 +39,7 @@
 .sign-in {
     width: 100px;
     height: 40px;
+    
     background: #536A63;
     float: right;
 }
